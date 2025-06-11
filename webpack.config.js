@@ -4,14 +4,14 @@ const path = require("path");
 
 module.exports = {
   entry: "./index.ts",
-  module: {
+  module: {3563
     rules: [
       {
         test: /\.ts$/,
         use: "ts-loader",
         exclude: /node_modules/,
       },
-      {
+      {1998326857
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
       },
